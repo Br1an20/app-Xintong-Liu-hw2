@@ -1,0 +1,27 @@
+db.borrowers.insertMany([
+{
+    Id:"L34",
+    Name:"Andrea Selleck",
+    Phone:"639-555-1239"
+}，
+{
+    Id:"L22",
+    Name:"Lucas Hyatt",
+    Phone:"408-555-2365"
+}，
+{
+    Id:"L19",
+    Name:"Carol Leonard",
+    Phone:"650-555-8921"
+}，
+{
+    Id:"L84",
+    Name:"Ayesha Ford",
+    Phone:"415-555-2120"
+}，
+{
+    Id:"L77",
+    Name:"Kenneth Trout",
+    Phone:"510-555-1982"
+}
+])

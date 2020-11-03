@@ -1,0 +1,189 @@
+Enter a database name: newdb
+=================== Welcome to CMU. ===================
+
+            ====== MENU =======
+            Type 'checkout' to borrow a book
+            Type 'return' to return a book
+            Type 'reset' to reset the database
+            Type 'books' to display all the book status
+            Type 'exit' to end the program
+            Enter a command: reset
+Data has been reset
+
+            ====== MENU =======
+            Type 'checkout' to borrow a book
+            Type 'return' to return a book
+            Type 'reset' to reset the database
+            Type 'books' to display all the book status
+            Type 'exit' to end the program
+            Enter a command: books
+[1] A675 <The Adventures of Huckleberry Finn>,Dodie Smith,N,,
+[2] B671 <Charlie and the Chocolate Factory>,Roald Dahl,N,,
+[3] A212 <Bag of Bones>,Stephen King,N,,
+[4] B534 <Charlotte's Web>,E.B.White,N,,
+[5] B777 <A Christmas Carol>,Charles Dickens,N,,
+[6] B778 <Dracula>,Bram Stoker,N,,
+[7] B812 <A Farewell to Arms>,Ernest Hemingway,N,,
+[8] C101 <The Firm>,John Grisham,N,,
+[9] A234 <The 101 Dalmations>,Dodie Smith,N,,
+
+            ====== MENU =======
+            Type 'checkout' to borrow a book
+            Type 'return' to return a book
+            Type 'reset' to reset the database
+            Type 'books' to display all the book status
+            Type 'exit' to end the program
+            Enter a command: checkout
+Enter your borrowerId: L34
+Enter the bookId: A234
+Andrea Selleck has checked out The 101 Dalmations
+
+            ====== MENU =======
+            Type 'checkout' to borrow a book
+            Type 'return' to return a book
+            Type 'reset' to reset the database
+            Type 'books' to display all the book status
+            Type 'exit' to end the program
+            Enter a command: checkout
+Enter your borrowerId: L34
+Enter the bookId: A675
+Andrea Selleck has checked out The Adventures of Huckleberry Finn
+
+            ====== MENU =======
+            Type 'checkout' to borrow a book
+            Type 'return' to return a book
+            Type 'reset' to reset the database
+            Type 'books' to display all the book status
+            Type 'exit' to end the program
+            Enter a command: books
+[1] A675 <The Adventures of Huckleberry Finn>,Dodie Smith,Y,L34,Andrea Selleck
+[2] B671 <Charlie and the Chocolate Factory>,Roald Dahl,N,,
+[3] A212 <Bag of Bones>,Stephen King,N,,
+[4] B534 <Charlotte's Web>,E.B.White,N,,
+[5] B777 <A Christmas Carol>,Charles Dickens,N,,
+[6] B778 <Dracula>,Bram Stoker,N,,
+[7] B812 <A Farewell to Arms>,Ernest Hemingway,N,,
+[8] C101 <The Firm>,John Grisham,N,,
+[9] A234 <The 101 Dalmations>,Dodie Smith,Y,L34,Andrea Selleck
+
+            ====== MENU =======
+            Type 'checkout' to borrow a book
+            Type 'return' to return a book
+            Type 'reset' to reset the database
+            Type 'books' to display all the book status
+            Type 'exit' to end the program
+            Enter a command: checkout
+Enter your borrowerId: L84
+Enter the bookId: A111
+Please Enter the correct book id!
+
+            ====== MENU =======
+            Type 'checkout' to borrow a book
+            Type 'return' to return a book
+            Type 'reset' to reset the database
+            Type 'books' to display all the book status
+            Type 'exit' to end the program
+            Enter a command: checkout
+Enter your borrowerId: L84
+Enter the bookId: C101
+Ayesha Ford has checked out The Firm
+
+            ====== MENU =======
+            Type 'checkout' to borrow a book
+            Type 'return' to return a book
+            Type 'reset' to reset the database
+            Type 'books' to display all the book status
+            Type 'exit' to end the program
+            Enter a command: books
+[1] A675 <The Adventures of Huckleberry Finn>,Dodie Smith,Y,L34,Andrea Selleck
+[2] B671 <Charlie and the Chocolate Factory>,Roald Dahl,N,,
+[3] A212 <Bag of Bones>,Stephen King,N,,
+[4] B534 <Charlotte's Web>,E.B.White,N,,
+[5] B777 <A Christmas Carol>,Charles Dickens,N,,
+[6] B778 <Dracula>,Bram Stoker,N,,
+[7] B812 <A Farewell to Arms>,Ernest Hemingway,N,,
+[8] C101 <The Firm>,John Grisham,Y,L84,Ayesha Ford
+[9] A234 <The 101 Dalmations>,Dodie Smith,Y,L34,Andrea Selleck
+
+            ====== MENU =======
+            Type 'checkout' to borrow a book
+            Type 'return' to return a book
+            Type 'reset' to reset the database
+            Type 'books' to display all the book status
+            Type 'exit' to end the program
+            Enter a command: return
+Enter your borrowId: L19
+Enter book id : Z111
+Book with id Z111 does not exist
+
+            ====== MENU =======
+            Type 'checkout' to borrow a book
+            Type 'return' to return a book
+            Type 'reset' to reset the database
+            Type 'books' to display all the book status
+            Type 'exit' to end the program
+            Enter a command: return
+Enter your borrowId: L34
+Enter book id : A234
+A675
+B671
+A212
+B534
+B777
+B778
+B812
+C101
+A234
+Andrea Selleck has returned The 101 Dalmations
+
+            ====== MENU =======
+            Type 'checkout' to borrow a book
+            Type 'return' to return a book
+            Type 'reset' to reset the database
+            Type 'books' to display all the book status
+            Type 'exit' to end the program
+            Enter a command: books
+[1] A675 <The Adventures of Huckleberry Finn>,Dodie Smith,Y,L34,Andrea Selleck
+[2] B671 <Charlie and the Chocolate Factory>,Roald Dahl,N,,
+[3] A212 <Bag of Bones>,Stephen King,N,,
+[4] B534 <Charlotte's Web>,E.B.White,N,,
+[5] B777 <A Christmas Carol>,Charles Dickens,N,,
+[6] B778 <Dracula>,Bram Stoker,N,,
+[7] B812 <A Farewell to Arms>,Ernest Hemingway,N,,
+[8] C101 <The Firm>,John Grisham,Y,L84,Ayesha Ford
+[9] A234 <The 101 Dalmations>,Dodie Smith,N,,
+
+            ====== MENU =======
+            Type 'checkout' to borrow a book
+            Type 'return' to return a book
+            Type 'reset' to reset the database
+            Type 'books' to display all the book status
+            Type 'exit' to end the program
+            Enter a command: reset
+Data has been reset
+
+            ====== MENU =======
+            Type 'checkout' to borrow a book
+            Type 'return' to return a book
+            Type 'reset' to reset the database
+            Type 'books' to display all the book status
+            Type 'exit' to end the program
+            Enter a command: books
+[1] A675 <The Adventures of Huckleberry Finn>,Dodie Smith,N,,
+[2] B671 <Charlie and the Chocolate Factory>,Roald Dahl,N,,
+[3] A212 <Bag of Bones>,Stephen King,N,,
+[4] B534 <Charlotte's Web>,E.B.White,N,,
+[5] B777 <A Christmas Carol>,Charles Dickens,N,,
+[6] B778 <Dracula>,Bram Stoker,N,,
+[7] B812 <A Farewell to Arms>,Ernest Hemingway,N,,
+[8] C101 <The Firm>,John Grisham,N,,
+[9] A234 <The 101 Dalmations>,Dodie Smith,N,,
+
+            ====== MENU =======
+            Type 'checkout' to borrow a book
+            Type 'return' to return a book
+            Type 'reset' to reset the database
+            Type 'books' to display all the book status
+            Type 'exit' to end the program
+            Enter a command: exit 
+(base) briansmacpro@Brians-MBP 2020Fall-APP-Homework3 % 

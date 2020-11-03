@@ -1,0 +1,74 @@
+db.books.insertMany([
+{
+    Id: "A234",
+    Name: "The 101 Dalmations",
+    Author: "Dodie Smith",
+    checked_out: "N",
+    borrower_id : "",
+    borrower_name : ""
+},
+{
+    Id: "A675",
+    Name: "The Adventures of Huckleberry Finn",
+    Author: "Dodie Smith",
+    checked_out: "N",
+    borrower_id : "",
+    borrower_name : ""
+},
+{
+    Id: "B671",
+    Name: "Charlie and the Chocolate Factory",
+    Author: "Roald Dahl",
+    checked_out: "N",
+    borrower_id : "",
+    borrower_name : ""
+},
+{
+    Id: "A212",
+    Name: "Bag of Bones",
+    Author: "Stephen King",
+    checked_out: "N",
+    borrower_id : "",
+    borrower_name : ""
+},
+{
+    Id: "B534",
+    Name: "Charlotte's Web",
+    Author: "E.B.White",
+    checked_out: "N",
+    borrower_id : "",
+    borrower_name : ""
+},
+{
+    Id: "B777",
+    Name: "A Christmas Carol",
+    Author: "Charles Dickens",
+    checked_out: "N",
+    borrower_id : "",
+    borrower_name : ""
+},
+{
+    Id: "B778",
+    Name: "Dracula",
+    Author: "Bram Stoker",
+    checked_out: "N",
+    borrower_id : "",
+    borrower_name : ""
+},
+{
+    Id: "B812",
+    Name: "A Farewell to Arms",
+    Author: "Ernest Hemingway",
+    checked_out: "N",
+    borrower_id : "",
+    borrower_name : ""
+},
+{
+    Id: "C101",
+    Name: "The Firm",
+    Author: "John Grisham",
+    checked_out: "N",
+    borrower_id : "",
+    borrower_name : ""
+}
+])
